@@ -1,6 +1,6 @@
 clear cd;
 clc;
-
+ 
 %deklarasi variable
 data = 'data.xlsx';
 K = 4; %penentuan jumlah cluster
@@ -37,7 +37,7 @@ for i = 1:size(route,2)
     end
     cd(i).routeN(a).id = a + 1;
     cd(i).routeN(a).ran = 0.999;
-    cd(i).routeN(a).sug = 1;
+    cd(i).routeN(a).sug = 1; 
 end
 
 
